@@ -5,7 +5,8 @@ body {
 	background-color: black;
 	color: whitesmoke;
 	font-size: 5rem;
-	overflow: hidden;
+	overflow: hidden; 
+	background: url("..img/flames/.gif");
 }
 
 .grid-container {

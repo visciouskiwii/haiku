@@ -1,4 +1,5 @@
 // main.js
+
 let moved = false;
 
 document.addEventListener("click", function () {
@@ -6,10 +7,10 @@ document.addEventListener("click", function () {
 
   moved = !moved;
 
-  words.forEach(function (word) {
+  words.forEach(function (word, index) {
     if (moved) {
-      let x = Math.random() * 200 - 100;
-      let y = Math.random() * 200 - 100;
+      let x = index * 8;
+      let y = -30 - (index * 5);
 
       word.style.transform = `translate(${x}px, ${y}px)`;
     } else {

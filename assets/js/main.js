@@ -2,8 +2,8 @@
 
 let rotation = 0;
 setInterval(function () {
-  rotation += 1;
+  rotation += 0;
   document.body.style.transform = `rotate(${rotation}deg)`;
-}, 0);
+}, 100);
 
 console.log("Hello, World!");

@@ -1,9 +1,12 @@
+
 // main.js
 
+let moved = false;
 
 document.addEventListener("click", function () {
   let words = document.querySelectorAll(".grid-container div");
 
+  moved = !moved;
 
   words.forEach(function (word, index) {
     if (moved) {
@@ -17,4 +20,3 @@ document.addEventListener("click", function () {
   });
 });
 console.log("Hello, World!");
-

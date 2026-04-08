@@ -2,7 +2,7 @@
 
 let rotation = 0;
 setInterval(function () {
-  rotation += 10;
+  rotation += 5;
   document.body.style.transform = `rotate(${rotation}deg)`;
 }, 360);
 

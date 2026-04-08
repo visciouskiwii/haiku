@@ -15,7 +15,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	transition-property: transform;
+	transition-property: rotate;
 	transition-duration: 10s;
 }
 
